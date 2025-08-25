@@ -1,0 +1,311 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>One Piece Fan Site</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>☠️ One Piece Fan Site</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="arcs.html">Arc Tracker</a>
+      <a href="fan.html">Fan Page</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Set Sail With the Straw Hat Pirates!</h2>
+    <p>Follow Luffy and his crew on their journey across the Grand Line.</p>
+    <img src="images/strawhats.jpg" alt="Straw Hat Crew">
+  </section>
+
+  <footer>
+    <p>Made by a One Piece fan | ☠️</p>
+  </footer>
+</body>
+</html>
+
+<!-- arcs.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>One Piece Arc Tracker</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .saga {
+      display: flex;
+      align-items: center;
+      background: #ffe6a7;
+      padding: 10px;
+      margin: 10px 0;
+      border: 2px solid #d62828;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    .saga:hover {
+      background: #ffd166;
+    }
+    .saga img {
+      width: 50px;
+      height: 50px;
+      margin-right: 10px;
+      border-radius: 5px;
+    }
+    .arc-list {
+      display: none;
+      margin-left: 70px;
+    }
+    .arc-list ul {
+      list-style: square;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>One Piece Arc Tracker</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="arcs.html">Arc Tracker</a>
+      <a href="fan.html">Fan Page</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Sagas & Arcs</h2>
+
+    <div class="saga"><img src="images/eastblue.jpg" alt="East Blue Saga">East Blue Saga</div>
+    <div class="arc-list">
+      <ul>
+        <li>Romance Dawn Arc (Ep 1–3)</li>
+        <li>Orange Town Arc (Ep 4–8)</li>
+        <li>Syrup Village Arc (Ep 9–18)</li>
+        <li>Baratie Arc (Ep 19–30)</li>
+        <li>Arlong Park Arc (Ep 31–44)</li>
+        <li>Loguetown Arc (Ep 45, 48–53)</li>
+      </ul>
+    </div>
+
+    <div class="saga"><img src="images/alabasta.jpg" alt="Alabasta Saga">Alabasta Saga</div>
+    <div class="arc-list">
+      <ul>
+        <li>Reverse Mountain Arc (Ep 61–63)</li>
+        <li>Whisky Peak Arc (Ep 64–67)</li>
+        <li>Little Garden Arc (Ep 70–77)</li>
+        <li>Drum Island Arc (Ep 78–91)</li>
+        <li>Alabasta Arc (Ep 92–130)</li>
+      </ul>
+    </div>
+
+    <div class="saga"><img src="images/skyisland.jpg" alt="Sky Island Saga">Sky Island Saga</div>
+    <div class="arc-list">
+      <ul>
+        <li>Jaya Arc (Ep 144–152)</li>
+        <li>Skypiea Arc (Ep 153–195)</li>
+      </ul>
+    </div>
+
+    <div class="saga"><img src="images/water7.jpg" alt="Water 7 Saga">Water 7 Saga</div>
+    <div class="arc-list">
+      <ul>
+        <li>Long Ring Long Land Arc (Ep 207–219)</li>
+        <li>Water 7 Arc (Ep 229–263)</li>
+        <li>Enies Lobby Arc (Ep 264–312)</li>
+        <li>Post-Enies Lobby Arc (Ep 313–325)</li>
+      </ul>
+    </div>
+
+    <div class="saga"><img src="images/thrillerbark.jpg" alt="Thriller Bark Saga">Thriller Bark Saga</div>
+    <div class="arc-list">
+      <ul>
+        <li>Thriller Bark Arc (Ep 337–381)</li>
+      </ul>
+    </div>
+
+    <div class="saga"><img src="images/summitwar.jpg" alt="Summit War Saga">Summit War Saga</div>
+    <div class="arc-list">
+      <ul>
+        <li>Sabaody Archipelago Arc (Ep 385–405)</li>
+        <li>Amazon Lily Arc (Ep 408–421)</li>
+        <li>Impel Down Arc (Ep 422–458)</li>
+        <li>Marineford Arc (Ep 459–489)</li>
+        <li>Post-War Arc (Ep 490–516)</li>
+      </ul>
+    </div>
+
+    <div class="saga"><img src="images/fishman.jpg" alt="Fish-Man Island Saga">Fish-Man Island Saga</div>
+    <div class="arc-list">
+      <ul>
+        <li>Return to Sabaody Arc (Ep 517–522)</li>
+        <li>Fish-Man Island Arc (Ep 523–574)</li>
+      </ul>
+    </div>
+
+    <div class="saga"><img src="images/dressrosa.jpg" alt="Dressrosa Saga">Dressrosa Saga</div>
+    <div class="arc-list">
+      <ul>
+        <li>Punk Hazard Arc (Ep 579–625)</li>
+        <li>Dressrosa Arc (Ep 629–746)</li>
+      </ul>
+    </div>
+
+    <div class="saga"><img src="images/wholecake.jpg" alt="Whole Cake Island Saga">Whole Cake Island Saga</div>
+    <div class="arc-list">
+      <ul>
+        <li>Zou Arc (Ep 751–779)</li>
+        <li>Whole Cake Island Arc (Ep 783–877)</li>
+        <li>Reverie Arc (Ep 878–889)</li>
+      </ul>
+    </div>
+
+    <div class="saga"><img src="images/wano.jpg" alt="Wano Country Saga">Wano Country Saga</div>
+    <div class="arc-list">
+      <ul>
+        <li>Wano Country Arc (Ep 890–1085)</li>
+      </ul>
+    </div>
+
+    <div class="saga"><img src="images/egghead.jpg" alt="Egghead Saga">Final Saga (Egghead)</div>
+    <div class="arc-list">
+      <ul>
+        <li>Egghead Arc (Ep 1086–ongoing)</li>
+      </ul>
+    </div>
+
+  </main>
+
+  <footer>
+    <p>Keep track of your adventure ☠️</p>
+  </footer>
+
+  <script>
+    const sagas = document.querySelectorAll('.saga');
+    sagas.forEach(saga => {
+      saga.addEventListener('click', () => {
+        const list = saga.nextElementSibling;
+        list.style.display = (list.style.display === "block") ? "none" : "block";
+      });
+    });
+  </script>
+</body>
+</html>
+
+<!-- fan.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>One Piece Fan Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Fan Page</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="arcs.html">Arc Tracker</a>
+      <a href="fan.html">Fan Page</a>
+    </nav>
+  </header>
+
+  <section>
+    <h2>Wallpapers</h2>
+    <div class="gallery">
+      <img src="images/wallpaper1.jpg" alt="Wallpaper 1">
+      <img src="images/wallpaper2.jpg" alt="Wallpaper 2">
+      <img src="images/wallpaper3.jpg" alt="Wallpaper 3">
+    </div>
+  </section>
+
+  <section>
+    <h2>Famous Quotes</h2>
+    <blockquote>“I’m going to be King of the Pirates!” – Monkey D. Luffy</blockquote>
+    <blockquote>“A man dies when he is forgotten.” – Dr. Hiluluk</blockquote>
+    <blockquote>“Inherited Will, the swelling of the changing times, and the dreams of people. These are things that cannot be stopped.” – Gol D. Roger</blockquote>
+  </section>
+
+  <section>
+    <h2>Fan Poll</h2>
+    <form>
+      <p>Who is the best Straw Hat?</p>
+      <input type="radio" name="strawhat" value="Luffy"> Luffy <br>
+      <input type="radio" name="strawhat" value="Zoro"> Zoro <br>
+      <input type="radio" name="strawhat" value="Nami"> Nami <br>
+      <input type="radio" name="strawhat" value="Sanji"> Sanji <br>
+      <input type="radio" name="strawhat" value="Usopp"> Usopp <br>
+      <button type="submit">Vote</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>For the fans, by the fans ☠️</p>
+  </footer>
+</body>
+</html>
+
+<!-- style.css -->
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fdf6e3;
+  color: #333;
+}
+
+header {
+  background: #d62828;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.hero {
+  text-align: center;
+  padding: 2rem;
+}
+
+.hero img {
+  width: 70%;
+  border-radius: 10px;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+}
+
+.gallery img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+section {
+  padding: 1.5rem;
+}
+
+blockquote {
+  font-style: italic;
+  background: #ffe6a7;
+  padding: 10px;
+  border-left: 5px solid #d62828;
+  margin: 10px 0;
+}
+
+footer {
+  background: #d62828;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
